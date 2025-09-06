@@ -1,0 +1,106 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+
+
+
+.menu ul {
+	list-style: none;
+	padding-left: 0;
+    font-size: x-large;
+}
+body {
+	background: #111;
+	color: #fff;
+	font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+header, footer {
+	background: #000;
+	color: #fff;
+	padding: 1em 0;
+	text-align: center;
+
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 250;
+    font-style: normal;
+    size: 48px;
+    
+}
+
+h1 {
+	color: #e10600;
+	letter-spacing: 2px;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 250;
+    font-style: xx-large;
+    size: 48px;
+    
+
+}
+
+h2, h3 {
+	color: #e10600;
+	letter-spacing: 2px;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 250;
+    font-style: xx-large;
+    size: 200px;
+
+}
+article {
+	background: #181818;
+	border-left: 8px solid #e10600;
+	margin: 2em auto;
+	padding: 1.5em 2em;
+	max-width: 700px;
+	box-shadow: 0 0 20px #000a;
+	border-radius: 8px;
+}
+
+article.importancia {
+	background: #1a1a1a;
+	border-left: 8px solid #fff;
+}
+
+article.guts {
+	background: #111;
+	border-left: 8px solid #e10600;
+}
+
+article.Legado {
+	background: #181818;
+	border-left: 8px solid #e10600;
+}
+
+article.Conc-ver {
+	background: #1a1a1a;
+	border-left: 8px solid #e10600;
+}
+
+ul, li {
+	color: #fff;
+}
+
+strong {
+	color: #e10600;
+}
+
+a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #e10600;
+}
+
+section#contenido {
+	margin: 2em 0;
+	padding: 1em;
+	border-radius: 8px;
+	background-image: url(https://i.redd.it/0c8iuqagdie81.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
