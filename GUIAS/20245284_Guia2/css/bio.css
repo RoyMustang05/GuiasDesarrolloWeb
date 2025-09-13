@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');    
+
+body {
+    background: linear-gradient(135deg, #2d133b 0%, #6e3fa6 100%);
+    color: #fff;
+    
+  font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+body h1{
+    color: #fff;
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+header {
+    padding: 2em 0 1em 0;
+    text-align: center;
+    background: #6e3fa6;
+    box-shadow: 0 2px 8px rgba(50, 0, 80, 0.15);
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #f7e49b;
+    margin: 0.2em 0;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px #2d133b;
+}
+
+.navegacion ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.navegacion a {
+    color: #f7e49b;
+    background: #2d133b;
+    padding: 0.5em 1.2em;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background 0.3s, color 0.3s;
+    box-shadow: 0 2px 8px rgba(50, 0, 80, 0.15);
+}
+
+.navegacion a:hover {
+    background: #f7e49b;
+    color: #2d133b;
+}
+
+.fotoroge {
+    text-align: center;
+    margin-top: 20px;
+    background-image: url(https://i.redd.it/gpir30a1cqud1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2em 0;
+}
+
+.fotoroge img {
+    
+    border: 5px solid #f7e49b;
+    box-shadow: 0 4px 16px rgba(50, 0, 80, 0.15);
+    background: #2d133b;
+}
+
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    background: rgba(46, 19, 59, 0.85);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(50, 0, 80, 0.15);
+    padding: 2em 2em 1em 2em;
+}
+
+section {
+    margin-bottom: 2.5em;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.2em;
+    color: #f7e49b;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    text-shadow: 1px 1px 6px #2d133b;
+    letter-spacing: 1px;
+}
+
+section p {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 auto 1.2em auto;
+    line-height: 1.7;
+    max-width: 650px;
+    background: rgba(110, 63, 166, 0.12);
+    border-radius: 12px;
+    padding: 1em 1.5em;
+    box-shadow: 0 2px 8px rgba(50, 0, 80, 0.15);
+}
+
+.rogecap {
+    display: block;
+    margin: 20px auto;
+    border-radius: 16px;
+    border: 3px solid #6e3fa6;
+    box-shadow: 0 4px 16px rgba(50, 0, 80, 0.15);
+    max-width: 320px;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5em 0 1em 0;
+    background: #2d133b;
+    color: #f7e49b;
+    font-size: 1em;
+    border-top: 2px solid #6e3fa6;
+    margin-top: 2em;
+    letter-spacing: 1px;
+}
+
+
+
