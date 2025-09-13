@@ -14,6 +14,13 @@ body h1{
     font-optical-sizing: auto;
     font-weight: 400;
 }
+section h2{
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 275;
+}
+
+
 
 header {
     padding: 2em 0 1em 0;
@@ -48,7 +55,6 @@ header h1 {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1em;
-    transition: background 0.3s, color 0.3s;
     box-shadow: 0 2px 8px rgba(50, 0, 80, 0.15);
 }
 
@@ -107,6 +113,8 @@ section p {
     border-radius: 12px;
     padding: 1em 1.5em;
     box-shadow: 0 2px 8px rgba(50, 0, 80, 0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold
 }
 
 .rogecap {
@@ -130,4 +138,7 @@ footer {
 }
 
 
-
+section p::first-letter {
+    color: #6e3fa6;
+    font-size: 2.5em;
+}
