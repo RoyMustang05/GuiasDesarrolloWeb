@@ -1,0 +1,131 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  background-color: #000000;
+  background-image: url('https://i.pinimg.com/originals/0b/11/96/0b1196766cf9ac9200cf73526ae6da5d.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+header {
+  background-image: url('https://media3.giphy.com/headers/colorful-courier/ammr2uN8JUE3.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 4rem 1.5rem;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header h2 {
+  font-weight: normal;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  /* background-image: url("https://i.pinimg.com/originals/0b/11/96/0b1196766cf9ac9200cf73526ae6da5d.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+
+
+section {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+section h3 {
+  margin-bottom: 1rem;
+  color: #34495e;
+}
+
+
+#Guias > div {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-left: 4px solid #3498db;
+  background-color: #ecf0f1;
+  border-radius: 6px;
+}
+
+#Guias a {
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  color: #2980b9;
+  text-decoration: none;
+}
+
+#Guias a:hover {
+  text-decoration: underline;
+}
+
+
+#FODA {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#FODA h3 {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#FODA p {
+  flex: 1 1 45%;
+  background-color: #eaf2f8;
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 4px solid #5dade2;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  main {
+    padding: 1rem;
+  }
+
+  #FODA p {
+    flex: 1 1 100%;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header h2 {
+    font-size: 1rem;
+  }
+}
